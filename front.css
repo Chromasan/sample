@@ -148,6 +148,7 @@ body{
 }
 
 .split-left{
+  text-align: center;
     opacity: 1;
     color: #000;
     position: relative;
