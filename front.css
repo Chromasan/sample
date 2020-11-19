@@ -6,9 +6,6 @@ span{
   font-size: 35px;
 }
 
-
-
-
 /*左の小見出し*/
 /*https://saruwakakun.com/html-css/reference/h-design*/
 h2 {
@@ -69,7 +66,10 @@ h2:after {
 
 /*画面全体の設定*/
 body{
-  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  /*background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);*/
+  /*background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);*/
+  /*background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);*/
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
 }
 
 
@@ -109,13 +109,13 @@ body{
   bottom: 0;
   border-top: 60px solid transparent;  /* 透明 */
   border-left: 50vw solid transparent;  /* 透明 */
-  border-right: 50vw solid #ecf0f1;  /* むらさき */
-  border-bottom: 60px solid #ecf0f1;  /* むらさき */
+  border-right: 50vw solid #ffffff;  /* むらさき */
+  border-bottom: 60px solid #ffffff;  /* むらさき */
 }
 .content02 {
   height: 300px;
   width: 100%;
-  background-color: #ecf0f1;
+  background-color: #ffffff;
   height:auto;/*自動で伸びる*/
 }
 
@@ -144,8 +144,8 @@ body{
 }
 
 .split-left{
-    background: #000;
-    color: #fff;
+    opacity: 1;
+    color: #000;
     position: relative;
     /*スマホ画面の場合の縦の長さはこれで調整される*/
     height:auto;
