@@ -67,13 +67,9 @@ h2:after {
 
 
 
-
-
-
 /*画面全体の設定*/
-
 body{
-  background-color: #ffffff;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
 }
 
 
@@ -146,6 +142,7 @@ body{
     width: 60%;
     height:auto;
 }
+
 .split-left{
     background: #000;
     color: #fff;
