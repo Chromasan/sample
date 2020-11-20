@@ -8,6 +8,7 @@
 .info dd {margin-left: 0.5em;}
 }
 
+
 span{
   color: #ff6a6a;
 }
@@ -93,6 +94,7 @@ body{
 }
 
 .article_box{
+  text-align: center;
   padding-top: 5px;
   padding-left: 30px;
   padding-right: 30px;
